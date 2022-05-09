@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Saurav Kumar/AndroidStudioProjects/Loanc2c/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/loan-c2c/app/src/main/res/drawable/auth_bg.xml" value="0.1" />
+        <entry key="..\:/loan-c2c/app/src/main/res/drawable/auth_bttn.xml" value="0.1" />
+        <entry key="..\:/loan-c2c/app/src/main/res/layout/activity_login_screen.xml" value="0.152" />
+        <entry key="..\:/loan-c2c/app/src/main/res/layout/auth_bg.xml" value="0.1" />
       </map>
     </option>
   </component>
