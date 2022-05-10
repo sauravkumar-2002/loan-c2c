@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Saurav Kumar/AndroidStudioProjects/Loanc2c/app/src/main/res/layout/activity_loan_request.xml" value="0.12708333333333333" />
         <entry key="..\:/Users/Saurav Kumar/AndroidStudioProjects/Loanc2c/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/Saurav Kumar/AndroidStudioProjects/Loanc2c/app/src/main/res/layout/activity_profile_signup.xml" value="0.12107396149949341" />
         <entry key="..\:/Users/Saurav Kumar/AndroidStudioProjects/Loanc2c/app/src/main/res/layout/activity_sign_up.xml" value="0.144" />
+        <entry key="..\:/Users/Saurav Kumar/AndroidStudioProjects/Loanc2c/app/src/main/res/layout/fragment_accepted_loan_req.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/Saurav Kumar/AndroidStudioProjects/Loanc2c/app/src/main/res/layout/single_row.xml" value="0.12708333333333333" />
       </map>
     </option>
   </component>

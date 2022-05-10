@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/singleCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:cardCornerRadius="19dp"
+        app:cardBackgroundColor="#E1D9F0"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+
+
+            <TextView
+                android:id="@+id/singleusername"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="username"
+                android:transitionName="ChatpersonName"
+                android:textSize="25dp"
+                android:layout_margin="5dp"
+                />
+            <TextView
+                android:id="@+id/cibil"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="CIBIL"
+                android:transitionName="ChatpersonName"
+                android:textSize="25dp"
+                android:layout_margin="5dp"
+                />
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+
+
+
+                <TextView
+                    android:id="@+id/Amount"
+                    android:layout_width="129dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Amount"
+                    android:transitionName="ChatpersonName"
+                    android:textSize="25dp"
+                    android:layout_margin="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/Tenure"
+                    android:layout_width="139dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="TENURE"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:transitionName="ChatpersonName" />
+                <TextView
+                    android:id="@+id/rate"
+                    android:layout_width="69dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="RAte"
+                    android:transitionName="ChatpersonName"
+                    android:textSize="25dp"
+                    android:layout_margin="5dp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

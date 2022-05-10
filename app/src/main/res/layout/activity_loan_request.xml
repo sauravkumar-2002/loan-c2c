@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loan_req.Loan_request">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear"
+        android:background="#030111"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/icusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="33dp"
+            android:gravity="center"
+            android:text="Deven Doyle"
+            android:textColor="@color/white"
+            android:textSize="39dp"
+            android:textStyle="bold"
+            android:transitionName="IndivualChatsText" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear"
+        android:background="#030111"
+        app:tabIndicatorColor="#E91E63"
+        app:tabSelectedTextColor="#E91E63"
+        app:tabTextColor="@color/white" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout"
+        android:id="@+id/container"/>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tab_layout"
+        android:id="@+id/view_pager2"/>
+
+
+
+</RelativeLayout>
