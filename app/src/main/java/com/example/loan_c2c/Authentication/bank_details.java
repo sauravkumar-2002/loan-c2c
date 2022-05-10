@@ -24,6 +24,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.loan_c2c.MainActivity;
 import com.example.loan_c2c.R;
+import com.example.loan_c2c.pan_validation;
 import com.example.loan_c2c.verhoeff;
 
 import org.json.JSONException;
@@ -161,6 +162,14 @@ public class bank_details extends AppCompatActivity {
     }
 
     private boolean validate_pan() {
+        boolean res= pan_validation.isValidPanCardNo(Pan_no_string);
+        if(!res)
+        {
+            Pan_no.setError("Enter a Valid Pan No.");
+            Pan_no.requestFocus();
+            return false;
+        }
+
         return true;
     }
 
